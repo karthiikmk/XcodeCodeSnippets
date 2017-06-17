@@ -8,6 +8,39 @@ All Xcode code snippets exist as a .plist files in ~/Library/Developer/Xcode/Use
 
 Note: Create the folder if it doesn't exist already. It is created by Xcode when user adds his first custom snippet.
 
+# Snippets
+
+swift-tableviewProtocols        To get tableview basic delegate and datasource methods in seperate extension
+
+simply, type tableviewProtocol a popup will appear with the snippet {} symbol. 
+
+extension <#UIViewController#>: UITableViewDelegate, UITableViewDataSource {
+    
+    func config() {
+        
+        //self.tableview.delegate = self
+        //self.tableview.dataSource = self
+        
+        //self.tableview.clearEmptyCell()
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return <#sectionCount#>
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return <#rowsCount#>
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        return <#UITableViewCell#>
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        <#code#>
+    }
+}
 
 
 
