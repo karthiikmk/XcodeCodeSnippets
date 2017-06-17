@@ -6,7 +6,7 @@
 	<string>mark</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>all</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>// MARK: &lt;#Details#&gt;</string>
