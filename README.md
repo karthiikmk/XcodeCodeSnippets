@@ -54,7 +54,7 @@ DispatchQueue.main.async {
 }
 ```
 
-similarly, to get mark type "mark"
+To get mark type "mark"
 
 here you go
 
@@ -63,6 +63,12 @@ here you go
 // MARK: Details
 
 ``` 
+
+Similaly some good sugar candies are added above. (smile)
+
+
+
+
 
 Thanks, 
 < karthik \>
