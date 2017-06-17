@@ -14,6 +14,7 @@ swift-tableviewProtocols        To get tableview basic delegate and datasource m
 
 simply, type tableviewProtocol a popup will appear with the snippet {} symbol. 
 
+```swift
 extension <#UIViewController#>: UITableViewDelegate, UITableViewDataSource {
     
     func config() {
@@ -41,8 +42,27 @@ extension <#UIViewController#>: UITableViewDelegate, UITableViewDataSource {
         <#code#>
     }
 }
+```
 
+swift-mainQueue            To get mainQueue block
 
+simply type main, a popup will appear with the snippet {} symbol. 
+
+``` swift
+DispatchQueue.main.async {
+            
+}
+```
+
+similarly, to get mark type "mark"
+
+here you go
+
+``` swift
+
+// MARK: Details
+
+``` 
 
 Thanks, 
 < karthik \>
