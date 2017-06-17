@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>viewcontroller</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>class &lt;#UIViewController#&gt;: UIViewController {
+    
+    // MARK: Outlets
+    
+    // MARK: Properties
+    
+    // MARK: View life cyecle
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+
+    
+    // MARK: deinit
+    
+    deinit {
+        
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>808B87EE-484D-48AD-898C-869E759BD369</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>viewcontrollerSnippet</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

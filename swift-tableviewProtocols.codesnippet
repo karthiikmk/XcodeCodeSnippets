@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>tableviewextension</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>extension &lt;#UIViewController#&gt;: UITableViewDelegate, UITableViewDataSource {
+    
+    func config() {
+        
+        //self.tableview.delegate = self
+        //self.tableview.dataSource = self
+        
+        //self.tableview.clearEmptyCell()
+    }
+
+    func numberOfSections(in tableView: UITableView) -&gt; Int {
+        return &lt;#sectionCount#&gt;
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+        return &lt;#rowsCount#&gt;
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
+        return &lt;#UITableViewCell#&gt;
+    }
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        &lt;#code#&gt;
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C853BD81-7CFD-4994-9E4F-D25D47EFCF67</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>TableviewProtocols</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
